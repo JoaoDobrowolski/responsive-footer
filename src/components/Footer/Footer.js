@@ -55,7 +55,7 @@ export default function Footer() {
       </div>
       <hr></hr>
       <div>
-        <img src={terrazLogo} alt="terraz-logo" />
+        <img className="terraz-logo" src={terrazLogo} alt="terraz-logo" />
       </div>
       <div>
         <p>
@@ -63,10 +63,10 @@ export default function Footer() {
         </p>
       </div>
       <div>
-        <img src={faceLogo} alt="facebook-logo" />
-        <img src={whatsLogo} alt="whatsapp-logo" />
-        <img src={linkedinLogo} alt="linkedin-logo" />
-        <img src={instaLogo} alt="instagram-logo" />
+        <img className="social-logo" src={faceLogo} alt="facebook-logo" />
+        <img className="social-logo" src={whatsLogo} alt="whatsapp-logo" />
+        <img className="social-logo" src={linkedinLogo} alt="linkedin-logo" />
+        <img className="social-logo" src={instaLogo} alt="instagram-logo" />
       </div>
       <div>
         <p>© TERRAZ l 04.721.081/00001-70 • Todos os direitos reservados • CRECI 2219-J</p>

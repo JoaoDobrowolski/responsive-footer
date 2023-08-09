@@ -4,7 +4,8 @@ import './global.css';
 
 function App() {
   return (
-    <div>
+    <div className="app">
+      <div className="content" />
       <Footer />
     </div>
   );
