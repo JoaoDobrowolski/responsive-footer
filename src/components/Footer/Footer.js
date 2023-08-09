@@ -20,6 +20,9 @@ export default function Footer() {
           comercial@terraz.com.br
         </a>
       </div>
+
+      <hr className="hr-s" />
+
       <div>
         <h1>Links úteis</h1>
         <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
@@ -29,15 +32,9 @@ export default function Footer() {
           Termos de Serviço
         </a>
       </div>
-      <div>
-        <h1>Imóveis</h1>
-        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-          Anunciar imóvel
-        </a>
-        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-          Agende sua visita
-        </a>
-      </div>
+
+      <hr className="hr-sm" />
+
       <div>
         <h1>Saiba mais</h1>
         <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
@@ -53,7 +50,21 @@ export default function Footer() {
           Trabalhe conosco
         </a>
       </div>
-      <hr></hr>
+
+      <hr className="hr-s" />
+
+      <div>
+        <h1>Imóveis</h1>
+        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+          Anunciar imóvel
+        </a>
+        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+          Agende sua visita
+        </a>
+      </div>
+
+      <hr className="hr-smb" />
+
       <div>
         <img className="terraz-logo" src={terrazLogo} alt="terraz-logo" />
       </div>
@@ -62,12 +73,14 @@ export default function Footer() {
           A Terraz é um portal imibiliário com foco em tecnologia e agilidade, obtendo confiabilidade na qualificação de locatários de forma automatizada com objetivo de agendar visitas para a sua imobiliária
         </p>
       </div>
+
       <div>
         <img className="social-logo" src={faceLogo} alt="facebook-logo" />
         <img className="social-logo" src={whatsLogo} alt="whatsapp-logo" />
         <img className="social-logo" src={linkedinLogo} alt="linkedin-logo" />
         <img className="social-logo" src={instaLogo} alt="instagram-logo" />
       </div>
+
       <div>
         <p>© TERRAZ l 04.721.081/00001-70 • Todos os direitos reservados • CRECI 2219-J</p>
       </div>

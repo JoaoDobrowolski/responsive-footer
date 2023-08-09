@@ -12,6 +12,7 @@
 
 .content {
   flex: 1; /* Occupies the remaining available space */
+  background-color: aliceblue;
 }
 
 .terraz-logo { /* fix quality or change to svg */
@@ -22,4 +23,59 @@
 .social-logo {
   width: 64px;
   height: 64px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #A2A4A7;
+}
+
+
+
+/* computer screen ~~ 1440px */
+@media (min-width: 1201px) {
+  .footer {
+    padding: 56px 80px 80px 80px;
+  }
+
+  .hr-s, .hr-sm {
+    display: none;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+}
+
+/* tablet screen ~~ 704px */
+@media (min-width: 601px) and (max-width: 1200px) {
+  .footer {
+    padding: 46px 48px 40px 48px;
+  }
+
+  .hr-s {
+    display: none;
+  }
+}
+
+/* smartphone screen ~~ 360px */
+@media (max-width: 600px) {
+  .footer {
+    padding: 40px 24px;
+  }
 }
