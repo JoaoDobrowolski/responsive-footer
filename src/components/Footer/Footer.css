@@ -91,16 +91,25 @@ hr {
 
   .talk-container{
     height: 84px;
+    width: 207px;
   }
 
-  .link-container, .property-container  {
+  .link-container {
     height: 136px;
     margin-left: 60px;
+    width: 224px;
+  }
+
+  .property-container  {
+    height: 136px;
+    margin-left: 60px;
+    width: 206px;
   }
 
   .know-container {
     height: 240px;
     margin-left: 60px;
+    width: 208px;
   }
 }
 
