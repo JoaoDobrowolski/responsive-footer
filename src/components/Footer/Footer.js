@@ -9,72 +9,78 @@ import instaLogo from '../../images/instagram-logo.png';
 export default function Footer() {
   return (
     <div className="footer">
-      <div>
-        <h1>Vamos conversar?</h1>
-        <a
-          href="https://www.google.com/"
-          target="_blank"
-          // for security
-          rel="noopener noreferrer"
-        >
-          comercial@terraz.com.br
-        </a>
+      <div className="large-container">
+        <div className="medium-container-a">
+          <div className="talk-container container">
+            <h1>Vamos conversar?</h1>
+            <a
+              href="https://www.google.com/"
+              target="_blank"
+              // for security
+              rel="noopener noreferrer"
+            >
+              comercial@terraz.com.br
+            </a>
+          </div>
+
+          <hr className="hr-a" />
+
+          <div className="link-container container">
+            <h1>Links úteis</h1>
+            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+              Política de Privacidade
+            </a>
+            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+              Termos de Serviço
+            </a>
+          </div>
+        </div>
+
+        <hr className="hr-b" />
+
+        <div className="medium-container-b">
+          <div className="know-container container">
+            <h1>Saiba mais</h1>
+            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+              Sobre a imobiliária
+            </a>
+            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+              Marketing imobiliário
+            </a>
+            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+              Blog
+            </a>
+            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+              Trabalhe conosco
+            </a>
+          </div>
+
+          <hr className="hr-c" />
+
+          <div className="property-container container">
+            <h1>Imóveis</h1>
+            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+              Anunciar imóvel
+            </a>
+            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+              Agende sua visita
+            </a>
+          </div>
+        </div>
       </div>
 
-      <hr className="hr-s" />
-
-      <div>
-        <h1>Links úteis</h1>
-        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-          Política de Privacidade
-        </a>
-        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-          Termos de Serviço
-        </a>
-      </div>
-
-      <hr className="hr-sm" />
-
-      <div>
-        <h1>Saiba mais</h1>
-        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-          Sobre a imobiliária
-        </a>
-        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-          Marketing imobiliário
-        </a>
-        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-          Blog
-        </a>
-        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-          Trabalhe conosco
-        </a>
-      </div>
-
-      <hr className="hr-s" />
-
-      <div>
-        <h1>Imóveis</h1>
-        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-          Anunciar imóvel
-        </a>
-        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-          Agende sua visita
-        </a>
-      </div>
-
-      <hr className="hr-smb" />
+      <hr className="hr-d" />
 
       <div>
         <img className="terraz-logo" src={terrazLogo} alt="terraz-logo" />
       </div>
       <div>
         <p>
-          A Terraz é um portal imibiliário com foco em tecnologia e agilidade, obtendo confiabilidade na qualificação de locatários de forma automatizada com objetivo de agendar visitas para a sua imobiliária
+          A Terraz é um portal imobiliário com foco em tecnologia e agilidade, obtendo confiabilidade na qualificação de locatários de forma automatizada com objetivo de agendar visitas para a sua imobiliária
         </p>
       </div>
 
-      <div>
+      <div className="social-logos">
         <img className="social-logo" src={faceLogo} alt="facebook-logo" />
         <img className="social-logo" src={whatsLogo} alt="whatsapp-logo" />
         <img className="social-logo" src={linkedinLogo} alt="linkedin-logo" />
