@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="talk-container container">
             <h1>Vamos conversar?</h1>
             <a
-              href="https://www.google.com/"
+              href="mailto:comercial@terraz.com.br"
               target="_blank"
               // for security
               rel="noopener noreferrer"
@@ -27,10 +27,10 @@ export default function Footer() {
 
           <div className="link-container container">
             <h1>Links úteis</h1>
-            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://content.woliver.com.br/public/settings/terraz/Pol%C3%ADtica_de_Privacidade__Cookies_Terraz.pdf" target="_blank" rel="noopener noreferrer">
               Política de Privacidade
             </a>
-            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.terraz.com.br/termos-de-servico" target="_blank" rel="noopener noreferrer">
               Termos de Serviço
             </a>
           </div>
@@ -41,16 +41,16 @@ export default function Footer() {
         <div className="medium-container-b">
           <div className="know-container container">
             <h1>Saiba mais</h1>
-            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://linktr.ee/imobiliariaterraz" target="_blank" rel="noopener noreferrer">
               Sobre a imobiliária
             </a>
             <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
               Marketing imobiliário
             </a>
-            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://blog.terraz.com.br/" target="_blank" rel="noopener noreferrer">
               Blog
             </a>
-            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://terraz.gupy.io/" target="_blank" rel="noopener noreferrer">
               Trabalhe conosco
             </a>
           </div>
@@ -81,10 +81,18 @@ export default function Footer() {
       </div>
 
       <div className="social-logos">
-        <img className="social-logo" src={faceLogo} alt="facebook-logo" />
-        <img className="social-logo" src={whatsLogo} alt="whatsapp-logo" />
-        <img className="social-logo" src={linkedinLogo} alt="linkedin-logo" />
-        <img className="social-logo" src={instaLogo} alt="instagram-logo" />
+        <a href="https://www.facebook.com/TerrazPortalImobiliario" target="_blank" rel="noopener noreferrer">
+          <img className="social-logo" src={faceLogo} alt="facebook-logo" />
+        </a>
+        <a href="https://web.whatsapp.com/send?phone=554899612729" target="_blank" rel="noopener noreferrer">
+          <img className="social-logo" src={whatsLogo} alt="whatsapp-logo" />
+        </a>
+        <a href="https://www.linkedin.com/company/terrazportalimobiliario/" target="_blank" rel="noopener noreferrer">
+          <img className="social-logo" src={linkedinLogo} alt="linkedin-logo" />
+        </a>
+        <a href="https://www.instagram.com/terrazportalimobiliario/" target="_blank" rel="noopener noreferrer">
+          <img className="social-logo" src={instaLogo} alt="instagram-logo" />
+        </a>
       </div>
 
       <div>

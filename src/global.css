@@ -8,8 +8,27 @@
  }
 
  body {
-  background-color: lightgray;
+  background: linear-gradient(to left, rgb(236, 240, 241), rgb(176, 207, 219));
   color: white;
   font-family: "Roboto";
  }
  
+ /* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(194, 198, 199);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(151, 172, 192);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
