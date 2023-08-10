@@ -1,10 +1,10 @@
 import React from 'react';
 import './Footer.css';
-import terrazLogo from '../../images/terraz-logo.png';
-import faceLogo from '../../images/facebook-logo.png';
-import whatsLogo from '../../images/whatsapp-logo.png';
-import linkedinLogo from '../../images/linkedin-logo.png';
-import instaLogo from '../../images/instagram-logo.png';
+import terrazLogo from '../../images/terraz-logo.svg';
+import faceLogo from '../../images/facebook-logo.svg';
+import whatsLogo from '../../images/whatsapp-logo.svg';
+import linkedinLogo from '../../images/linkedin-logo.svg';
+import instaLogo from '../../images/instagram-logo.svg';
 
 export default function Footer() {
   return (
