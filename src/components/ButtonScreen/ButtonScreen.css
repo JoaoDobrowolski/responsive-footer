@@ -1,0 +1,21 @@
+.button-simulation {
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  transform: translate(-50%, -50%);
+  padding: 8px;
+  border: 0;
+  border-radius: 8px;
+  background: linear-gradient(to bottom, rgb(236, 240, 241), rgb(176, 207, 219));
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* smartphone screen ~~ 360px */
+@media (max-width: 550px) {
+  .button-simulation {
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
+}

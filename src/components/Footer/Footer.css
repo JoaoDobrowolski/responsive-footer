@@ -26,36 +26,8 @@ hr {
   background-color: #4B4D4F;
 }
 
-/* the app and content classes exist so that the footer stays below even if the page has no content */
-.app {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Ensures the height of the parent is at least the height of the viewport */
-
-}
-
-.content {
-  flex: 1; /* Occupies the remaining available space */
-  background: linear-gradient(to right, rgb(236, 240, 241), rgb(176, 207, 219));
-}
-
 .container-simulation {
   height: 100vh;
-  transition: height 0.3s ease;
-}
-
-.button-simulation {
-  position: absolute;
-  left: 50%;
-  top: 50px;
-  transform: translate(-50%, -50%);
-  padding: 8px;
-  border: 0;
-  border-radius: 8px;
-  background: linear-gradient(to bottom, rgb(236, 240, 241), rgb(176, 207, 219));
-  color: black;
-  font-weight: bold;
-  cursor: pointer;
 }
 
 .terraz-logo { /* fix quality or change to svg */
@@ -81,7 +53,7 @@ hr {
   height: 64px;
 }
 
-/* computer screen ~~ 1440px */
+/* desktop screen ~~ 1440px */
 @media (min-width: 1151px) {
   h1 {
     font-size: 18px;
@@ -208,5 +180,10 @@ hr {
 
   .know-container {
     height: 236px;
+  }
+
+  .button-simulation {
+    left: 70%;
+    transform: translate(-50%, -50%);
   }
 }

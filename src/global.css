@@ -12,7 +12,21 @@
   color: white;
   font-family: "Roboto";
  }
+
+ /* the app and content classes exist so that the footer stays below even if the page has no content */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the height of the parent is at least the height of the viewport */
+
+}
+
+.content {
+  flex: 1; /* Occupies the remaining available space */
+  background: linear-gradient(to right, rgb(236, 240, 241), rgb(176, 207, 219));
+}
  
+/* scrollbar settings */
  /* width */
 ::-webkit-scrollbar {
   width: 8px;

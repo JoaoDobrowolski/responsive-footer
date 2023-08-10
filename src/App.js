@@ -1,22 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Footer from './components/Footer/Footer';
 import './global.css';
+import ButtonScreen from './components/ButtonScreen/ButtonScreen';
 
 function App() {
-  const [simulation, setSimulation] = useState(false);
 
   return (
     <div className="app">
-      <button
-        className="button-simulation"
-        type="button"
-        onClick={() => setSimulation(!simulation)}
-      >
-        Simulate {!simulation ? 'Expanded' : 'Reduced'} Screen
-      </button>
-      {simulation && (
-        <div className="container-simulation" />
-      )}
+      <ButtonScreen />
       <div className="content" />
       <Footer />
     </div>
