@@ -63,7 +63,7 @@ hr {
 }
 
 /* computer screen ~~ 1440px */
-@media (min-width: 1011px) {
+@media (min-width: 1151px) {
   h1 {
     font-size: 18px;
     line-height: 32px;
@@ -114,7 +114,7 @@ hr {
 }
 
 /* tablet screen ~~ 704px */
-@media (min-width: 601px) and (max-width: 1010px) {
+@media (min-width: 551px) and (max-width: 1150px) {
   .footer {
     padding: 40px 48px 40px 48px;
   }
@@ -150,7 +150,7 @@ hr {
 }
 
 /* smartphone screen ~~ 360px */
-@media (max-width: 600px) {
+@media (max-width: 550px) {
   hr {
     margin-bottom: 24px;
   }
